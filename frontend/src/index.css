@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: yekanReg;
+    src: url("../public/fonts/YekanBakh-Regular.ttf") format("opentype");
+  }
+@font-face {
+    font-family: yekanMed;
+    src: url("../public/fonts/YekanBakh-Medium.ttf") format("opentype");
+  }
+@font-face {
+    font-family: yekanLight;
+    src: url("../public/fonts/YekanBakh-Light.ttf") format("opentype");
+  }
+@font-face {
+    font-family: yekanHea;
+    src: url("../public/fonts/YekanBakh-Heavy.ttf") format("opentype");
+  }
+@font-face {
+    font-family: yekanFat;
+    src: url("../public/fonts/YekanBakh-Fat.ttf") format("opentype");
+  }
+@font-face {
+    font-family: YekanBakhBold;
+    src: url("../public/fonts/YekanBakh-Bold.ttf") format("opentype");
+  }
+@layer base{
+    body {
+        color: #fff;
+        font-family: yekanReg;
+        font-size: x-large;
+        line-height: 1.5;
+        direction: rtl;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .activeDark{
+      color : #0da6ff;
+      background-color: #141c31;
+      border-right: solid 5px #0da6ff;
+    }
+    .activeLight{
+      color : #6625ff;
+      background-color: #d0cef7;
+      border-right: solid 5px #6625ff;
+    }
+}
